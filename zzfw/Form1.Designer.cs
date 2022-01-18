@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_star = new System.Windows.Forms.Button();
+            this.tb_dk = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_kc = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_money = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_star
             // 
-            this.button1.Location = new System.Drawing.Point(482, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "开始运行";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_star.Location = new System.Drawing.Point(471, 21);
+            this.btn_star.Name = "btn_star";
+            this.btn_star.Size = new System.Drawing.Size(97, 52);
+            this.btn_star.TabIndex = 0;
+            this.btn_star.Text = "开始运行";
+            this.btn_star.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tb_dk
             // 
-            this.textBox1.Location = new System.Drawing.Point(165, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(67, 21);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "14666";
+            this.tb_dk.Location = new System.Drawing.Point(165, 17);
+            this.tb_dk.Name = "tb_dk";
+            this.tb_dk.Size = new System.Drawing.Size(67, 21);
+            this.tb_dk.TabIndex = 2;
+            this.tb_dk.Text = "14666";
             // 
             // label1
             // 
@@ -73,19 +73,19 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "连接矿池：";
             // 
-            // textBox2
+            // tb_kc
             // 
-            this.textBox2.Location = new System.Drawing.Point(165, 53);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(217, 21);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "tcp://asia1.ethermine.org:4444";
+            this.tb_kc.Location = new System.Drawing.Point(165, 53);
+            this.tb_kc.Name = "tb_kc";
+            this.tb_kc.Size = new System.Drawing.Size(217, 21);
+            this.tb_kc.TabIndex = 4;
+            this.tb_kc.Text = "tcp://asia1.ethermine.org:4444";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(4, 126);
+            this.richTextBox1.Location = new System.Drawing.Point(4, 173);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(647, 280);
+            this.richTextBox1.Size = new System.Drawing.Size(647, 233);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             // 
@@ -98,27 +98,27 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "统一钱包：";
             // 
-            // textBox3
+            // tb_money
             // 
-            this.textBox3.Location = new System.Drawing.Point(165, 89);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(265, 21);
-            this.textBox3.TabIndex = 8;
-            this.textBox3.Text = "0x0da75f7b2a4e117175bc4d0a82215b5bc9c6d27e";
+            this.tb_money.Location = new System.Drawing.Point(165, 89);
+            this.tb_money.Name = "tb_money";
+            this.tb_money.Size = new System.Drawing.Size(265, 21);
+            this.tb_money.TabIndex = 8;
+            this.tb_money.Text = "0x0da75f7b2a4e117175bc4d0a82215b5bc9c6d27e";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 418);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tb_money);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tb_kc);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tb_dk);
+            this.Controls.Add(this.btn_star);
             this.Name = "Form1";
             this.Text = "中转服务+反抽水";
             this.ResumeLayout(false);
@@ -128,14 +128,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_star;
+        private System.Windows.Forms.TextBox tb_dk;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_kc;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_money;
     }
 }
 

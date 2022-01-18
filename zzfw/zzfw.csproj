@@ -33,6 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dijing.ComContext.Core, Version=1.0.3.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dijing.ComContext.Core.1.3.1\lib\net461\Dijing.ComContext.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Dijing.RRQMHelper, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dijing.RRQMHelper.1.0.1\lib\netstandard2.0\Dijing.RRQMHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="RRQMCore, Version=6.5.0.0, Culture=neutral, PublicKeyToken=83a466fd8c19d6a7, processorArchitecture=MSIL">
+      <HintPath>..\packages\RRQMCore.6.5.0\lib\net45\RRQMCore.dll</HintPath>
+    </Reference>
+    <Reference Include="RRQMSocket, Version=6.5.0.0, Culture=neutral, PublicKeyToken=83a466fd8c19d6a7, processorArchitecture=MSIL">
+      <HintPath>..\packages\RRQMSocket.6.5.0\lib\net45\RRQMSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\packages\Serilog.2.10.0\lib\net46\Serilog.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -66,6 +81,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
