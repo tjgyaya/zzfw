@@ -16,5 +16,33 @@ namespace zzfw
         {
             InitializeComponent();
         }
+        bool starBool = false;
+        private void btn_star_Click(object sender, EventArgs e)
+        {
+            if (starBool)
+            {
+                stop();
+                btn_star.Text = "开始运行";
+            }
+            else
+            {
+                star();
+                btn_star.Text = "正在运行";
+            }
+        }
+        public void star()
+        {
+
+
+
+        }
+
+        public void stop()
+        {
+
+
+
+        }
+
     }
 }

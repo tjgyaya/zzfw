@@ -40,12 +40,13 @@
             // 
             // btn_star
             // 
-            this.btn_star.Location = new System.Drawing.Point(471, 21);
+            this.btn_star.Location = new System.Drawing.Point(496, 18);
             this.btn_star.Name = "btn_star";
             this.btn_star.Size = new System.Drawing.Size(97, 52);
             this.btn_star.TabIndex = 0;
             this.btn_star.Text = "开始运行";
             this.btn_star.UseVisualStyleBackColor = true;
+            this.btn_star.Click += new System.EventHandler(this.btn_star_Click);
             // 
             // tb_dk
             // 
